@@ -65,6 +65,7 @@
       font-size: 55px;
       font-family: "George X";
       text-align: center;
+      margin-bottom: 100px;
     }
     @keyframes reel {
       from {
@@ -122,6 +123,20 @@
       .pic9 {
         background-image: url(../../assets/pic9.jpg);
       }
+    }
+  }
+
+  .main-text2 {
+    font-size: 55px;
+    font-family: "George X";
+    text-align: center;
+  }
+  @keyframes reel {
+    from {
+      transform: translateX(30%);
+    }
+    to {
+      transform: translateX(-30%);
     }
   }
 
