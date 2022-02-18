@@ -1,0 +1,211 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #c97164;
+  text-align: center;
+  z-index: 200;
+
+  .load-text {
+    span {
+      cursor: pointer;
+      overflow: hidden;
+      font-size: 50px;
+      margin-left: 5px;
+      display: inline-block;
+      font-family: "George X";
+    }
+  }
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+
+  .logo {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: "George X";
+    font-weight: bold;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+  }
+}
+
+.main-section {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300vh;
+  flex-direction: column;
+  width: 100%;
+
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+
+    .main-text {
+      font-size: 55px;
+      font-family: "George X";
+      text-align: center;
+    }
+    @keyframes reel {
+      from {
+        transform: translateX(30%);
+      }
+      to {
+        transform: translateX(-30%);
+      }
+    }
+
+    .reel {
+      margin-bottom: 100px;
+      display: flex;
+      width: auto;
+      height: 300px;
+      align-items: center;
+      overflow: hidden;
+      animation: reel 80s linear infinite;
+
+      .pic {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 220px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .pic0 {
+        background-image: url(../../assets/pic0.jpg);
+      }
+      .pic1 {
+        background-image: url(../../assets/pic1.jpg);
+      }
+      .pic2 {
+        background-image: url(../../assets/pic2.jpg);
+      }
+      .pic3 {
+        background-image: url(../../assets/pic3.jpg);
+      }
+      .pic4 {
+        background-image: url(../../assets/pic4.jpg);
+      }
+      .pic5 {
+        background-image: url(../../assets/pic5.jpg);
+      }
+      .pic6 {
+        background-image: url(../../assets/pic6.jpg);
+      }
+      .pic7 {
+        background-image: url(../../assets/pic7.jpg);
+      }
+      .pic8 {
+        background-image: url(../../assets/pic8.jpg);
+      }
+      .pic9 {
+        background-image: url(../../assets/pic9.jpg);
+      }
+    }
+  }
+
+  // .main-text,
+  // .main-text2 {
+  //   font-size: 55px;
+  //   font-family: "George X";
+  //   text-align: center;
+  // }
+  // @keyframes reel {
+  //   from {
+  //     transform: translateX(30%);
+  //   }
+  //   to {
+  //     transform: translateX(-30%);
+  //   }
+  // }
+}
+
+// Reel 2
+
+.reel2 {
+  margin-bottom: 100px;
+  display: flex;
+  width: auto;
+  height: 450px;
+  align-items: center;
+  overflow: hidden;
+  animation: reel2 70s linear infinite;
+
+  @keyframes reel2 {
+    from {
+      transform: translateX(40%);
+    }
+    to {
+      transform: translateX(-40%);
+    }
+  }
+
+  .pic {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    filter: grayscale(1);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.12);
+      filter: grayscale(0);
+    }
+  }
+
+  .pic00 {
+    background-image: url(../../assets/pic00.jpg);
+  }
+  .pic10 {
+    background-image: url(../../assets/pic10.jpg);
+  }
+  .pic20 {
+    background-image: url(../../assets/pic20.jpg);
+  }
+  .pic30 {
+    background-image: url(../../assets/pic30.jpg);
+  }
+  .pic40 {
+    background-image: url(../../assets/pic40.jpg);
+  }
+  .pic50 {
+    background-image: url(../../assets/pic50.jpg);
+  }
+  .pic60 {
+    background-image: url(../../assets/pic60.jpg);
+  }
+  .pic70 {
+    background-image: url(../../assets/pic70.jpg);
+  }
+  .pic80 {
+    background-image: url(../../assets/pic80.jpg);
+  }
+  .pic90 {
+    background-image: url(../../assets/pic90.jpg);
+  }
+}

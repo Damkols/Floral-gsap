@@ -1,46 +1,42 @@
 export const reel2 = [
   {
     id: 1,
-    class: "pic0",
+    class: "pic00",
   },
   {
     id: 2,
-    class: "pic1",
+    class: "pic10",
   },
   {
     id: 3,
-    class: "pic2",
+    class: "pic20",
   },
   {
     id: 4,
-    class: "pic3",
+    class: "pic30",
   },
   {
     id: 5,
-    class: "pic4",
+    class: "pic40",
   },
   {
     id: 6,
-    class: "pic5",
+    class: "pic50",
   },
   {
     id: 7,
-    class: "pic6",
+    class: "pic60",
   },
   {
     id: 8,
-    class: "pic7",
+    class: "pic70",
   },
   {
     id: 9,
-    class: "pic8",
+    class: "pic80",
   },
   {
     id: 10,
-    class: "pic9",
-  },
-  {
-    id: 11,
-    class: "pic10",
+    class: "pic90",
   },
 ];

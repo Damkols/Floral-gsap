@@ -39,8 +39,4 @@ export const reel = [
     id: 10,
     imgClass: "pic9",
   },
-  {
-    id: 11,
-    imgClass: "pic10",
-  },
 ];
